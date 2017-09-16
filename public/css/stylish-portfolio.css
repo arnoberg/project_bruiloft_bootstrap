@@ -24,10 +24,20 @@ body {
 }
 
 .text-vertical-center h1 {
-    font-size: 4.5em;
+    font-size: 6.5em;
     font-weight: 700;
     margin: 0;
     padding: 0;
+    color: white;
+}
+
+/*added this for h3 info*/
+.text-vertical-center h3 {
+    font-size: 2.5em;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    color: white;
 }
 
 
