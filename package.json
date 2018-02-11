@@ -21,18 +21,13 @@
   "contributors": [
     "David Miller (http://davidmiller.io/)"
   ],
-
   "scripts": {
-  "start": "node index.js"
+    "start": "node index.js"
   },
-
-
-  
   "repository": {
     "type": "git",
     "url": "https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio.git"
   },
-  
   "dependencies": {
     "bootstrap": "^4.0.0-beta",
     "font-awesome": "4.7.0",
