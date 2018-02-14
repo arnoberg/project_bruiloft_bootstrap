@@ -9,8 +9,9 @@ app.use('/public', express.static(path.join(__dirname + "/public")));
 app.use('/vendor', express.static(path.join(__dirname + "/vendor")));
 
 
+//deze kan je veranderen in savethedate.html
 app.get('/', function(req, res) {
-    res.sendFile(path.join(__dirname + '/savethedate.html'));
+    res.sendFile(path.join(__dirname + '/index.html'));
 });
 
 
