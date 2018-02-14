@@ -10,5 +10,6 @@ app.use(express.static(path.join(__dirname, 'public'),{
   extensions: ['html']}
 ));
 
+app.get('/','index.html');
 
 app.listen(port);
